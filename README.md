@@ -16,7 +16,6 @@ if name in students:
     subject = input("Which subject do you want update?")
     if subject in students[name]:
         grade = float(input("Enter new grade:"))
-
     while grade <0 or grade >100:
         print("Invalid grade.Please enter a grade between 0 and 100.")
         grade= float(input("Enter new grade:"))
@@ -44,7 +43,6 @@ if name in students:
     grades= students[name]
     total = sum.(grades.values())
     average= total/ len(grades)
-
     print ("Name:", name)
     print("Grades:", grades
     print("Average:", average)
