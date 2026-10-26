@@ -1,0 +1,42 @@
+Section E - Gradebook Management System
+
+The Gradebook Management System uses object-oriented programming to manage student records and grades. The program uses the Student and Gradebook classes to store student information, add grades, calculate averages, and display student details.
+
+The system allows users to add, remove, and search for students. It also supports sorting student records and includes tests to check that the program works correctly.
+
+Main Features
+
+* Uses classes and objects to manage student records.
+* Stores student names and subject grades.
+* Allows grades to be added.
+* Calculates each student’s average grade.
+* Displays student details.
+* Allows students to be added, removed, and searched for.
+* Includes unit and integration tests.
+
+Python Concepts Used
+
+The program uses classes, objects, methods, dictionaries, functions, loops, conditional statements, and unit testing.
+
+Section F - Gradebook Management System
+
+Section F improves the Gradebook Management System by adding exception handling, searching, sorting, and input validation. The program handles errors and displays helpful messages when users enter invalid information or search for students who do not exist.
+
+The system validates grades to ensure they are between 0 and 100, rejects duplicate student names, and handles students who have no grades. It also uses bubble sort to arrange student records alphabetically.
+
+Main Features
+
+* Handles errors using custom exceptions.
+* Validates grades between 0 and 100.
+* Rejects nonnumeric and invalid grades.
+* Prevents duplicate student names.
+* Searches for students by name.
+* Handles attempts to remove nonexistent students.
+* Calculates an average of 0 for students with no grades.
+* Uses bubble sort to arrange students alphabetically.
+* Accepts names containing special characters, such as hyphens and apostrophes.
+* Supports managing large numbers of student records.
+
+Python Concepts Used
+
+The program uses exception handling, custom exceptions, try and except, classes, objects, dictionaries, searching, bubble sort, loops, conditional statements, input validation, and error messages.
