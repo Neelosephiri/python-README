@@ -1,54 +1,3 @@
-# README.md 
-students= {}
-num_students = int(input('How many students do you want to enter?'))
-for i in range(num_students):
-    name = input("Enter student name: ")
-    student_grades = {}
-    for subject in ["Math", "English", "Science"] :
-        grade = float(input("Enter" + subject +"grade:"))
-        while grade <0 or grade>100 :
-            print("Invalid grade. Please enter a garade between 0 and 100.")
-        student_grades[subject] = grade
-        students[name] = student_grades
-print("\nUPADATE STUDENT")
-name = input("Which subject do you want to update?")
-if name in students:
-    subject = input("Which subject do you want update?")
-    if subject in students[name]:
-        grade = float(input("Enter new grade:"))
-    while grade <0 or grade >100:
-        print("Invalid grade.Please enter a grade between 0 and 100.")
-        grade= float(input("Enter new grade:"))
-        students[name][subject]=grade
-    else
-        print ("Subject not found.")
-print("\nREMOVE STUDENT")
-name = input("Enter student's name:")
-if name in students:
-    del students[name]
-    print("Student removed.")
-else
-    print ("Student not found.")
-
-print("\nVIEW SUBJECT GRADES")
-subject= input('Enter subject:')
-for name, grades in students.items():
-    if subject in grades :
-        print(name, ":", grades[subject])
-
-print("/nSEARCH STUDENT")
-name= input("Enter student's name :")
-
-if name in students:
-    grades= students[name]
-    total = sum.(grades.values())
-    average= total/ len(grades)
-    print ("Name:", name)
-    print("Grades:", grades
-    print("Average:", average)
-else
-    print("Student not found.")
-
 
 Section A - Gradebook Management System
 
@@ -71,7 +20,7 @@ Python Concepts Used
 
 The system uses variables, lists, tuples, loops, user input, while loops, validation, and arithmetic calculations.
 
-Section C - Gradebook Management System
+Section B - Gradebook Management System
 
 The Gradebook Management System is used to record and analyse student grades. The user enters the number of students and then enters each student’s name and grades for Math, English, and Science.
 
